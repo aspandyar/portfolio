@@ -160,6 +160,15 @@ header{
     resize: none;
 }
 
+.form-row{
+    padding: 5px 20px;
+    margin: auto;
+}
+
+.form-group{
+    padding: 10px;
+}
+
 /* footer */
 footer{
     background-color: #333333;
