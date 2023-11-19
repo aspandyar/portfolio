@@ -16,6 +16,11 @@ p{
     color:#6c757d;
 }
 
+.r-p{
+    padding-top: 80px;
+    padding-bottom: 80px;
+}
+
 /* nav */
 nav.r-nav{
     background: transparent;
@@ -109,4 +114,53 @@ header{
     color:#000;
     background: #fff;
     transition: 0.5s all;
+}
+
+/* about us */
+.about li a{
+    color: #000;
+    display: inline-block;
+    height: 42px;
+    width: 42px;
+    font-size: 20px;
+    border: 2px solid #d4d4d4;
+    border-radius: 50%;
+    line-height: 40px;
+    transition: 0.5s all;
+    text-align: center;
+}
+
+.about li a:hover{
+    color: #83eaee;
+}
+
+/* my skills */
+.exp-class .progress{
+    height: 10px;
+    border-radius: 20px;
+    font-size: 10px;
+}
+
+.progress-bar{
+    background-color: rgb(231, 178, 65) !important;
+}
+
+.exp-class label{
+    font-size: 20px;
+    margin: 10px;
+}
+
+/* contact us */
+.contact .r-icon{
+    font-size: 50px;
+    text-align: center;
+}
+
+#textarea-id{
+    resize: none;
+}
+
+/* footer */
+footer{
+    background-color: #333333;
 }
